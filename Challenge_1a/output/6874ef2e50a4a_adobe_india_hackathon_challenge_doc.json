@@ -1,0 +1,295 @@
+{
+  "title": "Document Title",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Welcome to the “Connecting the Dots” Challenge",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Round 1:",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "Round 2:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Round 1A: Understand Your Document",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "A sample input PDF (e.g., sample.pdf)",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "A sample ground truth output (sample.json) for format clarity",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Accepts a PDF file (up to 50 pages)",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Extracts:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Outputs a valid JSON file in the format below:",
+      "page": 3
+    },
+    {
+      "level": "H2",
+      "text": "Sample Dockerfile",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Sample Solution",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Please ensure your Dockerfile is compatible with AMD64",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "CPU architecture: amd64 (x86_64)",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "No GPU dependencies",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Model size (if used) ≤ 200MB",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Should work offline — no network/internet calls",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Automatically process all PDFs from /app/input directory,",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "output.json",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "PDF",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "Git Project with a working Dockerfile in the root director and",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A working Dockerfile",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "All dependencies installed within the container",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "A README.md that explains:",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Don’t rely solely on font sizes for heading level determination —",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Test your solution across both simple and complex PDFs.",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Make your code modular — you’ll reuse this structure in Round",
+      "page": 5
+    },
+    {
+      "level": "H2",
+      "text": "Important – Please keep your Git Repo private till the competition",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Do not hardcode headings or file-specific logic",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Do not make API or web calls",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Do not exceed the runtime/model size constraints",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Round 1B: Persona-Driven Document Intelligence",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Document Collection: 3-10 related PDFs Persona Definition: Role",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Job-to-be-Done: Concrete task the persona needs to accomplish",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Documents can be from any domain (Example: Research papers,",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Persona can again be very diverse (Example: Researcher, Student,",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Job-to-be-done: This will be related to the persona (Example:",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Documents: 4 research papers on \"Graph Neural Networks for",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Persona: PhD Researcher in Computational Biology",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Job: \"Prepare a comprehensive literature review focusing on",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "Metadata:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Extracted Section:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Sub-section Analysis:",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Documents: 3 annual reports from competing tech companies",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Persona: Investment Analyst",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Job: \"Analyze revenue trends, R&D investments, and market",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Documents: 5 chapters from organic chemistry textbooks",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Persona: Undergraduate Chemistry Student",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Job: \"Identify key concepts and mechanisms for exam preparation",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Output JSON format: Refer challenge1b_output.json",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Must run on CPU only",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Model size ≤ 1GB",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "Processing time ≤ 60 seconds for document collection (3-5",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "No internet access allowed during execution",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "approach_explanation.md (300-500 words explaining",
+      "page": 9
+    },
+    {
+      "level": "H2",
+      "text": "Dockerfile and execution instructions",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Appendix:",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "https://github.com/jhaaj08/Adobe-India-",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Hackathon25.git",
+      "page": 10
+    }
+  ]
+}
