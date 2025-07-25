@@ -1,0 +1,17 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_test_001"
+  },
+  "persona": {
+    "role": "PhD Researcher in Computational Biology specializing in machine learning applications for drug discovery with 5+ years experience in analyzing scientific literature and developing predictive models"
+  },
+  "job_to_be_done": {
+    "task": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks for Graph Neural Networks in Drug Discovery research"
+  },
+  "documents": [
+    { "filename": "paper1_gnn_drug_discovery.pdf" },
+    { "filename": "paper2_molecular_representation.pdf" },
+    { "filename": "paper3_performance_benchmarks.pdf" },
+    { "filename": "paper4_datasets_review.pdf" }
+  ]
+}

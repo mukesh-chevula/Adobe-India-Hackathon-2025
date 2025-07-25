@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Challenge 1B Output Schema",
+  "description": "Schema for persona-driven document intelligence output",
+  "required": ["metadata", "extracted_sections", "subsection_analysis"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "input_documents",
+        "persona",
+        "job_to_be_done",
+        "processing_timestamp"
+      ],
+      "properties": {
+        "input_documents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of input PDF document filenames"
+        },
+        "persona": {
+          "type": "string",
+          "description": "Description of the user persona"
+        },
+        "job_to_be_done": {
+          "type": "string",
+          "description": "Specific task the persona needs to accomplish"
+        },
+        "processing_timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when processing was completed"
+        }
+      }
+    },
+    "extracted_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "document",
+          "section_title",
+          "importance_rank",
+          "page_number"
+        ],
+        "properties": {
+          "document": {
+            "type": "string",
+            "description": "Source document filename"
+          },
+          "section_title": {
+            "type": "string",
+            "description": "Title of the extracted section"
+          },
+          "importance_rank": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Importance ranking (1 = most important)"
+          },
+          "page_number": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number where section is found"
+          }
+        }
+      },
+      "description": "Main sections ranked by relevance to persona and job"
+    },
+    "subsection_analysis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["document", "refined_text", "page_number"],
+        "properties": {
+          "document": {
+            "type": "string",
+            "description": "Source document filename"
+          },
+          "refined_text": {
+            "type": "string",
+            "description": "Refined and extracted text content"
+          },
+          "page_number": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number where content is found"
+          }
+        }
+      },
+      "description": "Granular subsection extraction with refined content"
+    }
+  }
+}

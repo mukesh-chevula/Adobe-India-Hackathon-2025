@@ -8,6 +8,10 @@ import jsonschema
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 
+def colored_text(text: str, color_code: str) -> str:
+    """Return colored text for terminal output."""
+    return f"\033[{color_code}m{text}\033[0m"
+
 
 class SchemaValidator:
     """Validates Challenge 1A output against the official schema."""
@@ -167,11 +171,11 @@ class SchemaValidator:
         """
         is_valid, errors = self.validate_json_file(json_path)
         
-        report = f"📋 Schema Validation Report for: {json_path.name}\n"
+        report = f"{colored_text('SCHEMA VALIDATION REPORT', '36')} for: {json_path.name}\n"
         report += "=" * 60 + "\n\n"
         
         if is_valid:
-            report += "✅ VALIDATION PASSED\n"
+            report += f"{colored_text('VALIDATION PASSED', '32')}\n"
             report += "The JSON file conforms to the official Challenge 1A schema.\n"
             
             # Load and show basic stats
@@ -185,7 +189,7 @@ class SchemaValidator:
                     level = item.get('level', 'Unknown')
                     level_counts[level] = level_counts.get(level, 0) + 1
                 
-                report += f"\n📊 Statistics:\n"
+                report += f"\n{colored_text('Statistics:', '34')}\n"
                 report += f"   Title: {data.get('title', 'N/A')}\n"
                 report += f"   Total headings: {len(outline)}\n"
                 
@@ -202,13 +206,13 @@ class SchemaValidator:
                 report += f"Note: Could not load statistics - {str(e)}\n"
         
         else:
-            report += "❌ VALIDATION FAILED\n"
+            report += f"{colored_text('VALIDATION FAILED', '31')}\n"
             report += f"Found {len(errors)} error(s):\n\n"
             
             for i, error in enumerate(errors, 1):
                 report += f"   {i}. {error}\n"
             
-            report += f"\n💡 Tips:\n"
+            report += f"\n{colored_text('Tips:', '33')}\n"
             report += f"   - Ensure 'title' is a non-empty string\n"
             report += f"   - Ensure 'outline' is an array of heading objects\n"
             report += f"   - Each heading must have 'level' (H1/H2/H3), 'text' (string), and 'page' (integer)\n"
@@ -227,32 +231,32 @@ def validate_output_directory(output_dir: Path) -> None:
         print("No JSON files found in output directory.")
         return
     
-    print(f"🔍 Validating {len(json_files)} JSON file(s)...")
+    print(f"{colored_text('Validating', '36')} {len(json_files)} JSON file(s)...")
     print("=" * 70)
     
     valid_count = 0
     
     for json_file in json_files:
-        print(f"\n📄 Checking: {json_file.name}")
+        print(f"\n{colored_text('Checking:', '34')} {json_file.name}")
         is_valid, errors = validator.validate_json_file(json_file)
         
         if is_valid:
-            print("   ✅ Valid")
+            print(f"   {colored_text('Valid', '32')}")
             valid_count += 1
         else:
-            print("   ❌ Invalid")
+            print(f"   {colored_text('Invalid', '31')}")
             for error in errors[:3]:  # Show first 3 errors
                 print(f"      - {error}")
             if len(errors) > 3:
                 print(f"      ... and {len(errors) - 3} more error(s)")
     
     print(f"\n{'='*70}")
-    print(f"📊 Summary: {valid_count}/{len(json_files)} files passed validation")
+    print(f"{colored_text('Summary:', '34')} {valid_count}/{len(json_files)} files passed validation")
     
     if valid_count == len(json_files):
-        print("🎉 All files conform to the official schema!")
+        print(f"{colored_text('All files conform to the official schema!', '32')}")
     else:
-        print(f"⚠️  {len(json_files) - valid_count} file(s) need fixing")
+        print(f"{colored_text(f'{len(json_files) - valid_count} file(s) need fixing', '33')}")
 
 
 if __name__ == "__main__":

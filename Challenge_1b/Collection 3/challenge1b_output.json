@@ -1,0 +1,318 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+  },
+  "extracted_sections": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Ideas",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Ideas",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "section_title": "Breakfast Ideas",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Dinner Ideas - Mains_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Dinner Ideas - Mains_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Dinner Ideas - Mains_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Dinner Ideas - Mains_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Dinner Ideas - Mains_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Dinner Ideas - Mains_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Dinner Ideas - Mains_3",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Dinner Ideas - Mains_3",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Dinner Ideas - Mains_3",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Dinner Ideas - Sides_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Dinner Ideas - Sides_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "section_title": "Dinner Ideas - Sides_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Dinner Ideas - Sides_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Dinner Ideas - Sides_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "section_title": "Dinner Ideas - Sides_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Dinner Ideas - Sides_3",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Dinner Ideas - Sides_3",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "section_title": "Dinner Ideas - Sides_3",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "section_title": "Dinner Ideas - Sides_4",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "section_title": "Dinner Ideas - Sides_4",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "section_title": "Dinner Ideas - Sides_4",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Lunch Ideas",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Lunch Ideas",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Lunch Ideas",
+      "importance_rank": 3,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "Pancakes \nIngredients: \n\u2022 \n1 cup all-purpose flour \n\u2022 \n2 tablespoons sugar \n\u2022 \n1 teaspoon baking powder \n\u2022 \n1/2 teaspoon baking soda \n\u2022 \n1/4 teaspoon salt \n\u2022 \n1 cup buttermilk \n\u2022 \n1 large egg \n\u2022 \n2 tablespoons melted butter \n\u2022 \n1 teaspoon vanilla extract \nInstructions: \n\u2022 \nIn a bowl, whisk together ",
+      "page_number": 2
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "\u2022 \n1/2 teaspoon ground cinnamon \n\u2022 \n1 tablespoon butter \nInstructions: \n\u2022 \nIn a shallow dish, whisk together eggs, milk, vanilla extract, and cinnamon. \n\u2022 \nDip each slice of bread into the egg mixture, coating both sides. \n\u2022 \nHeat a non-stick skillet over medium heat and melt the butter. \n\u2022 \nCook th",
+      "page_number": 3
+    },
+    {
+      "document": "Breakfast Ideas.pdf",
+      "refined_text": "\u2022 \n1/4 cup cooked sausage or bacon \n\u2022 \n1/4 cup diced bell pepper \n\u2022 \n1/4 cup diced onion \n\u2022 \n1 large flour tortilla \n\u2022 \nSalsa for serving \nInstructions: \n\u2022 \nIn a bowl, whisk the eggs and cook them in a skillet over medium heat. \n\u2022 \nAdd cheese, sausage or bacon, bell pepper, and onion to the eggs. \n\u2022",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Beef Stroganoff \nIngredients: \n\u2022 \n1 pound beef sirloin, thinly sliced \n\u2022 \n1 small onion, diced \n\u2022 \n2 cloves garlic, minced \n\u2022 \n1 cup mushrooms, sliced \n\u2022 \n1 cup beef broth \n\u2022 \n1 cup sour cream \n\u2022 \n2 tablespoons flour \n\u2022 \n2 tablespoons butter \n\u2022 \n1 teaspoon paprika \n\u2022 \nSalt and pepper to taste \n\u2022 \nEg",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 \nPlace chicken in a baking dish, top with marinara sauce and shredded mozzarella cheese. \n\u2022 \nBake for 20-25 minutes until cheese is melted and bubbly. \n\u2022 \nServe warm. \n \n \n \nSpaghetti Bolognese \nIngredients: \n\u2022 \n1 pound ground beef \n\u2022 \n1 small onion, diced \n\u2022 \n2 cloves garlic, minced \n\u2022 \n1 carrot,",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "\u2022 \nSliced green onions for garnish \nInstructions: \n\u2022 \nIn a bowl, mix soy sauce, mirin, sugar, sake, grated ginger, and minced garlic. \n\u2022 \nMarinate chicken thighs in the mixture for at least 30 minutes. \n\u2022 \nHeat vegetable oil in a skillet over medium heat. \n\u2022 \nCook chicken thighs until browned and co",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "\u2022 \n1 teaspoon thyme \n\u2022 \n1 teaspoon rosemary \n\u2022 \n1/4 cup olive oil \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nPreheat oven to 375\u00b0F (190\u00b0C). \n\u2022 \nIn a large baking dish, layer diced eggplant, zucchini, bell pepper, onion, and tomatoes. \n\u2022 \nIn a bowl, mix minced garlic, olive oil, thyme, rosemary,",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "\u2022 \n1/4 cup bacon, chopped \n\u2022 \n1/4 cup green onions, sliced \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a pot, bring water to a boil and stir in grits. \n\u2022 \nReduce heat and simmer until thickened, then stir in shredded cheddar cheese and \nbutter. \n\u2022 \nIn a skillet, cook chopped bacon until crisp",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "\u2022 \n1 cup shredded cheese \n\u2022 \n1 teaspoon oregano \n\u2022 \n1 teaspoon basil \n\u2022 \n2 tablespoons olive oil \n\u2022 \nSalt and pepper to taste \n \n \n \nSweet and Sour Pork \nIngredients: \n\u2022 \n1 pound pork tenderloin, cubed \n\u2022 \n1 bell pepper, diced \n\u2022 \n1 small onion, diced \n\u2022 \n1/2 cup pineapple chunks \n\u2022 \n1/4 cup ketchup",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": "\u2022 \nReturn chicken to the skillet and cook until heated through. \n\u2022 \nServe warm. \n \n \n \nPeking Duck \nIngredients: \n\u2022 \n1 whole duck \n\u2022 \n1/4 cup soy sauce \n\u2022 \n1/4 cup honey \n\u2022 \n2 tablespoons hoisin sauce \n\u2022 \n2 tablespoons rice vinegar \n\u2022 \n2 cloves garlic, minced \n\u2022 \n1 teaspoon five-spice powder \n\u2022 \n1 t",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": " \n \nQuiche Lorraine \nIngredients: \n\u2022 \n1 pie crust \n\u2022 \n6 slices bacon, cooked and crumbled \n\u2022 \n1 small onion, diced \n\u2022 \n1 cup grated Gruy\u00e8re cheese \n\u2022 \n3 eggs \n\u2022 \n1 cup heavy cream \n\u2022 \n1/2 teaspoon salt \n\u2022 \n1/4 teaspoon pepper \nInstructions: \n\u2022 \nPreheat oven to 375\u00b0F (190\u00b0C). \n\u2022 \nPlace pie crust in a",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": " \n \nRoast Beef \nIngredients: \n\u2022 \n1 beef roast (3-4 pounds) \n\u2022 \n2 cloves garlic, minced \n\u2022 \n1 tablespoon fresh rosemary, chopped \n\u2022 \n1 tablespoon fresh thyme, chopped \n\u2022 \n1/4 cup olive oil \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nPreheat oven to 350\u00b0F (175\u00b0C). \n\u2022 \nIn a bowl, mix minced garlic,",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "Acaraj\u00e9 \n\u2022 \nIngredients:  \no 2 cups black-eyed peas \no 1 small onion \no 2 cloves garlic \no 1 teaspoon salt \no Oil for frying \n\u2022 \nInstructions: \no Soak black-eyed peas overnight, then peel and rinse. \no Blend peas with diced onion, minced garlic, and salt until smooth. \no Form mixture into balls and ",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "o Add potatoes and cauliflower, stir to coat with spices. \no Cover and cook until vegetables are tender, stirring occasionally. \no Add salt to taste and serve. \n \nAlbondigas \n\u2022 \nIngredients: \no 1/2 pound ground beef \no 1/2 pound ground pork \no 1 small onion \no 2 cloves garlic \no 1/4 cup breadcrumbs ",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_1.pdf",
+      "refined_text": "\u2022 \nInstructions: \no Form risotto into balls and stuff with a cube of mozzarella. \no Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs. \no Fry in hot oil until golden. \no Drain on paper towels and serve warm. \n \nBaba Ganoush \n\u2022 \nIngredients: \no 2 eggplants \no 1/4 cup tahini \no 1/4 ",
+      "page_number": 4
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "Churros \n\u2022 \nIngredients: \no 1 cup water \no 1/2 cup butter \no 1 cup flour \no 3 eggs \no 1/4 cup sugar \no 1 teaspoon cinnamon \no Oil for frying \n\u2022 \nInstructions: \no Bring water and butter to a boil. \no Add flour and stir until a dough forms. \no Remove from heat and beat in eggs one at a time. \no Heat o",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": " \nCornbread \n\u2022 \nIngredients: \no 1 cup cornmeal \no 1 cup flour \no 1/4 cup sugar \no 1 tablespoon baking powder \no 1/2 teaspoon salt \no 1 cup milk \no 1/4 cup vegetable oil \no 1 egg \n\u2022 \nInstructions: \no Preheat oven to 400\u00b0F (200\u00b0C). \no Mix cornmeal, flour, sugar, baking powder, and salt in a bowl. \no A",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_2.pdf",
+      "refined_text": "o 2 tablespoons butter \n\u2022 \nInstructions: \no Preheat oven to 400\u00b0F (200\u00b0C). \no Spread b\u00e9chamel sauce on 4 slices of bread. \no Top with ham and grated cheese, then cover with remaining bread slices. \no Melt butter in a pan and toast sandwiches until golden. \no Transfer to a baking sheet, top with more",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "o 2 cloves garlic \no 4 tomatoes \no 4 cups vegetable broth \no 1 teaspoon cumin \no 1 teaspoon coriander \no 1 teaspoon turmeric \no 1 teaspoon salt \no 1/4 cup cilantro \n\u2022 \nInstructions: \no Saut\u00e9 diced onion and minced garlic until softened. \no Add diced tomatoes, lentils, chickpeas, vegetable broth, cum",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": " \nHummus \n\u2022 \nIngredients: \no 1 can chickpeas \no 1/4 cup tahini \no 1/4 cup lemon juice \no 2 cloves garlic \no 1/4 cup olive oil \no 1 teaspoon salt \n\u2022 \nInstructions: \no Drain and rinse chickpeas. \no Blend chickpeas, tahini, lemon juice, minced garlic, and salt in a food processor. \no Slowly add olive o",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_3.pdf",
+      "refined_text": "o 1/4 cup olive oil \n\u2022 \nInstructions: \no Toss vegetables with minced garlic, jerk seasoning, and olive oil. \no Roast at 400\u00b0F (200\u00b0C) until tender. \no Serve warm. \n \nJohnny Cakes \n\u2022 \nIngredients: \no 2 cups flour \no 1/4 cup sugar \no 1 tablespoon baking powder \no 1/2 teaspoon salt \no 1/4 cup butter \no",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "o Scramble eggs in the same pan. \no Add noodles, fish sauce, tamarind paste, sugar, and lime juice, stir to combine. \no Add bean sprouts, cooked shrimp, and chopped green onions. \no Garnish with crushed peanuts and serve. \n \nPajeon (Pancakes) \n\u2022 \nIngredients: \no 1 cup flour \no 1 cup water \no 1 egg \n",
+      "page_number": 1
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "o 1 teaspoon salt \no Skewers \n\u2022 \nInstructions: \no Cut paneer into cubes. \no Mix yogurt, lemon juice, cumin, coriander, garam masala, turmeric, and salt in a \nbowl. \no Add paneer cubes and marinate for at least 1 hour. \no Thread paneer onto skewers. \no Grill or broil until golden, turning occasionall",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Sides_4.pdf",
+      "refined_text": "o 1/2 cup tomato sauce \no 1 teaspoon paprika \no 1/2 teaspoon cayenne pepper \no 1/2 teaspoon salt \no 1/4 cup mayonnaise \n\u2022 \nInstructions: \no Peel and dice potatoes. \no Toss potatoes with olive oil and salt, then roast at 400\u00b0F (200\u00b0C) until crispy. \no Mix tomato sauce, paprika, and cayenne pepper in ",
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Chicken Caesar Wrap \nIngredients: \n\u2022 \n1 whole wheat tortilla \n\u2022 \n1 cup cooked chicken breast, sliced \n\u2022 \n1 cup romaine lettuce, chopped \n\u2022 \n2 tablespoons Caesar dressing \n\u2022 \n2 tablespoons grated Parmesan cheese \n\u2022 \nOptional: croutons for extra crunch \nInstructions: \n\u2022 \nLay the tortilla flat and spre",
+      "page_number": 2
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": " \n \n \nGreek Yogurt Parfait \nIngredients: \n\u2022 \n1 cup Greek yogurt \n\u2022 \n1/2 cup granola \n\u2022 \n1/2 cup mixed berries (strawberries, blueberries, raspberries) \n\u2022 \n1 tablespoon honey \nInstructions: \n\u2022 \nIn a bowl or jar, layer the Greek yogurt, granola, and mixed berries. \n\u2022 \nDrizzle with honey. \n\u2022 \nRepeat th",
+      "page_number": 3
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "\u2022 \nServe on lettuce leaves or whole grain bread. \n \n \n \nCaprese Sandwich \nIngredients: \n\u2022 \n2 slices ciabatta bread \n\u2022 \n1/2 cup fresh mozzarella, sliced \n\u2022 \n1 tomato, sliced \n\u2022 \nFresh basil leaves \n\u2022 \n1 tablespoon balsamic glaze \n\u2022 \n1 tablespoon olive oil \n\u2022 \nSalt and pepper to taste \nInstructions: \n",
+      "page_number": 4
+    }
+  ]
+}

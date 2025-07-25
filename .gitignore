@@ -41,6 +41,11 @@ Thumbs.db
 # Logs
 *.log
 
+# Test outputs (keep directories but ignore contents during development)
+Challenge_1a/output/*.json
+Challenge_1a/input/*.pdf
+Challenge_1b/output/*.json
+Challenge_1b/collections/*.pdf
 
 # Temporary files
 *.tmp

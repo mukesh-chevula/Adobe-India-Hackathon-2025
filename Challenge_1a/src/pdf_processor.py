@@ -9,6 +9,10 @@ from pathlib import Path
 from typing import Dict, List, Any
 from outline_extractor import OutlineExtractor
 
+def colored_text(text: str, color_code: str) -> str:
+    """Return colored text for terminal output."""
+    return f"\033[{color_code}m{text}\033[0m"
+
 
 class PDFProcessor:
     """Main PDF processing class that coordinates outline extraction."""
@@ -83,7 +87,7 @@ class PDFProcessor:
             is_valid, errors = self._validate_result(result)
             
             if not is_valid:
-                print(f"  ⚠️  Schema validation warnings for {output_path.name}:")
+                print(f"  {colored_text('Schema validation warnings', '33')} for {output_path.name}:")
                 for error in errors[:3]:  # Show first 3 errors
                     print(f"     - {error}")
                 if len(errors) > 3:
@@ -94,7 +98,7 @@ class PDFProcessor:
                 json.dump(result, f, indent=2, ensure_ascii=False)
                 
             if is_valid:
-                print(f"  ✅ Schema validation passed")
+                print(f"  {colored_text('Schema validation passed', '32')}")
             
         except Exception as e:
             print(f"Error saving result to {output_path}: {str(e)}")

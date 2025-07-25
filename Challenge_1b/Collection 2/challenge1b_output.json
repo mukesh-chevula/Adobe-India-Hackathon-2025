@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "section_title": "Learn Acrobat - Create and Convert_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "section_title": "Learn Acrobat - Edit_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "section_title": "Learn Acrobat - Edit_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "section_title": "Learn Acrobat - Edit_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "section_title": "Learn Acrobat - Edit_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "section_title": "Learn Acrobat - Edit_2",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "section_title": "Learn Acrobat - Edit_2",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "section_title": "Learn Acrobat - Export_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "section_title": "Learn Acrobat - Export_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "section_title": "Learn Acrobat - Export_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "section_title": "Learn Acrobat - Export_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "section_title": "Learn Acrobat - Export_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "section_title": "Learn Acrobat - Export_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Learn Acrobat - Fill and Sign",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Learn Acrobat - Fill and Sign",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Learn Acrobat - Fill and Sign",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "Learn Acrobat - Generative AI_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "Learn Acrobat - Generative AI_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "section_title": "Learn Acrobat - Generative AI_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "section_title": "Learn Acrobat - Generative AI_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "section_title": "Learn Acrobat - Generative AI_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "section_title": "Learn Acrobat - Generative AI_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "section_title": "Learn Acrobat - Request e-signatures_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "section_title": "Learn Acrobat - Share_1",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "section_title": "Learn Acrobat - Share_1",
+      "importance_rank": 2,
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "section_title": "Learn Acrobat - Share_1",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "section_title": "Learn Acrobat - Share_2",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "section_title": "Learn Acrobat - Share_2",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "section_title": "Learn Acrobat - Share_2",
+      "importance_rank": 3,
+      "page_number": 3
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "section_title": "Test Your Acrobat Exporting Skills",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "section_title": "Test Your Acrobat Exporting Skills",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "The Ultimate PDF Sharing Checklist",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "The Ultimate PDF Sharing Checklist",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "The Ultimate PDF Sharing Checklist",
+      "importance_rank": 3,
+      "page_number": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "What\u2019s the best way to create a PDF? \nYou can create PDFs from documents printed on paper, Microsoft Word documents, InDesign\u00ae \nfiles, digital images, and more. Di\ufb00erent types of sources have di\ufb00erent tools available for PDF \nconversion. In many applications, you can create PDFs by selecting the Ado",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Method 4: Open the file in its source application and go \nto Print > Adobe PDF printer. \nPaper documents \n(Requires a scanner) \nMethod 1: From the top tools bar, select Create. Then, \nselect Scanner as the file type, select the scanner, and follow \nthrough the steps or browse to locate a pre-scanned",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_1.pdf",
+      "refined_text": "Web pages \nMethod 1: From the top tools bar, select Create. Then, \nselect Web page as the file type and follow through the \nsteps.  \nOr, select the hamburger menu \n (Windows) or \nthe File menu (macOS) > Create > PDF from web page and \nfollow through the workflow.  \nMethod 2: Drag and drop the HTML f",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "  \nNote: If you select Retain Some Layers In The Selected Page, you\u2019ll be prompted to \nchoose which Visio layers to include. \n1. Click Convert To Adobe PDF, specify a location and filename, and click Save. \n \nSelect Visio layers to convert (Acrobat Pro) \nYou can convert a Visio drawing that contains",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "Note: Visio layers that were selected for conversion and that have Visio settings for \nvisible, printable, or lock are converted to PDF layers; the visible and printable \nproperties are included in the resulting PDF layers. If the Visio file contains a \nbackground page, header, or footer, the PDF fi",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Create and Convert_2.pdf",
+      "refined_text": "Convert AutoCAD files to PDF (Acrobat Pro for \nWindows) \nUse PDFMaker to convert AutoCAD files from within the AutoCAD application. You can also use \nthe Batch Conversion feature to convert many AutoCAD files in one operation. Acrobat \nPDFMaker preserves selected layers and layouts when converting A",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Edit text in a PDF \nOpen the PDF you want to edit in Acrobat, and then select Edit in the global bar. \n \nThe PDF switches to the edit mode, and the Edit panel displays. If the PDF is generated from a \nscanned document, Acrobat automatically runs OCR to make the text and images editable. \n \n \nThe Edi",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": " \nSet the default font for adding and editing text \nWhen you add text in a PDF, by default Acrobat chooses nearby font attributes for the new \ntext. When you edit text, any font that isn't available on the system is substituted by a default \nfall-back font for the particular script. For example, Min",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_1.pdf",
+      "refined_text": "Change, replace, or delete text \nWhen you edit text, the text in the paragraph reflows within its text box to accommodate the \nchanges. Each text box is independent, and inserting text in one text block doesn\u2019t push down \nan adjacent text box or reflow to the next page.   \n1. Select Edit in the glob",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": " \n \n1. Make the desired changes in the app. Bear in mind the following: \n\u2022 \nIf you change the dimensions of the image, the image may not align correctly in \nthe PDF. \n\u2022 \nTransparency information is preserved only for masks that are specified as \nindex values in an indexed color space. \n\u2022 \nIf you're ",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Rotate, move, delete, extract, or renumber \npages in a PDF \n \nRotate pages in a PDF \nYou can rotate all or select pages in a document. Rotation is based on 90-degree increments. \nYou can rotate pages using the rotate tools in the Page Thumbnails pane or \nthe Rotate option. \n1. Open the PDF in Acroba",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Edit_2.pdf",
+      "refined_text": "Extract pages from a PDF \nExtraction is reusing selected pages of one PDF in a different PDF. Extracted pages include the \ncontent and the form fields, comments, and links of the original document. \nYou can leave the extracted pages in the original document or remove them during \nextraction. \nNote: ",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Export \nYou can save your changes to an Adobe PDF or PDF Portfolio in the original PDF or in a copy \nof the PDF. You can also save individual PDFs to other file formats, including text, XML, \nHTML, and Microsoft Word. \nSaving a PDF in text format allows you to use the content with a screen reader, s",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Note:  \nIf you are viewing a PDF in a web browser, the Acrobat File menu is not available. Use the \nSave A Copy button in the Acrobat toolbar to save the PDF. \n \n \n",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Export_1.pdf",
+      "refined_text": "Recover the last saved version \n1. On Windows, choose the hamburger   Menu > Undo, Redo & more > Revert. \nOn macOS, select the File menu > Revert. \nAbout the Autosave feature \nThe Autosave feature guards against losing your work in case of a power failure by \nincrementally, and at regular intervals,",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Copy images \nUse the Select tool to copy and paste individual images from a PDF to the clipboard, another \napplication, or a file. \nOpen the Preferences dialog box if you cannot select an image because of overlapping text. \nSelect Acrobat in the upper-left (macOS) or Menu in the upper-left (Windows)",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Export objects to separate PDF \nUsing the Edit Object tool, you can save objects into a separate PDF. \n1. Select All tools > Use print production > Edit object. \n2. Select the object or objects. \n3. Right-click the selection, and choose Save Selection As. \n4. In the Save As dialog, specify where you",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Export_2.pdf",
+      "refined_text": "Take a snapshot of a page \nYou can use the Snapshot tool to copy all selected content (text, images, or both) to the \nclipboard or another application. Text and images are copied as an image. \nYou can use two methods to take a snapshot: the Select or Snapshot tools. Using the Select \ntool \n, draw a ",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFill and Sign PDF Forms \nYou can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types \nof PDF forms \n \n",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Types of PDF forms  \n\u2022 \nInteractive forms: These contain fields that you can select and fill in. \n\u2022 \nFlat forms: These do not have interactive fields. It could be a paper form or PDF that \nhasn\u2019t been optimized for form filling. The Fill & Sign tool automatically detects the \nform fields like text f",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": " \nNote:  \nResize the first annotation you place to fit the check box or radio button in the \ndocument, and the next annotations you add will be of the same size and will fit the \nrest of the box/circle fields. \n6. To change the text color, select the color from the quick toolbar and select a desired",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Overview of generative AI features \nUse the generative AI features in Acrobat and Acrobat Reader to quickly scan through \nlengthy, complex PDF content and get answers or generate a summary. \n \nNote: The generative AI features in Acrobat and Acrobat Reader support English, French, \nGerman, Spanish, I",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "Chrome or Microsoft Edge. AI Assistant is also available on phones through Acrobat mobile \napps (iOS and Android). It isn't available on iPad or Android tablets.  \n \n \nBenefits of generative AI features \nThe generative AI features in Acrobat and Acrobat Reader significantly improve \ncomprehension, h",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_1.pdf",
+      "refined_text": "cues indicating where generated information came from. However, because the AI Assistant is \npowered by generative AI models, and the technology is still evolving and not perfect, not all \nanswers are helpful or accurate. As a result, the AI Assistant may not find and display answers \nto your questi",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": " \nNote:  \nThe option Enable generative AI features in Acrobat is displayed only if you \npreviously opted in for the generative AI features.  \nPersistent chat history \nYou can access your conversation threads with Acrobat's AI Assistant across sessions. You can \naccess the chat history whether your f",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Clear chat history \nYou can clear the chat history and ensure that the AI Assistant treats the document as new so \nyou can ask fresh questions.  \n \nTo clear chat history: \n1. Open the document for which you wish to clear the chat history. Select   in the upper \nright.  \n2. Select Clear chat history.",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Generative AI_2.pdf",
+      "refined_text": "Your chat history is cleared. You see a message saying - Your chat history was cleared. To \ncontinue asking questions, start a new chat. You can select Start new chat in the lower right \nto ask questions. The message displays in the AI Assistant as long as the document remains \nopen without reproces",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Send a document to get signatures from \nothers \n1. Open the PDF form in Acrobat or Acrobat Reader, and then choose All \ntools > Request E-signatures. Alternatively, you can select Sign from the top toolbar. \n2. The Request Signatures window is displayed. It displays the fields progressively as you \n",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "\u2022 \n(Optional) To explore advanced options including signer authentication, reminders, \nand more, click More Options. \n\u2022 \nTo add form fields and specify where to sign, click Specify where to sign. \nRequest signatures \u2013 Add Cc, subject, message, More Options \n\u2022 \nIf you don't want to use the More Optio",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "More or \nAdvanced Options \n5. The Specify Where to Fill & Sign window is displayed showing options based on \nwhether you have added one signer or multiple signers. \n  \n\u2022 \nSimplified mode for single signer \nIf you've added one signer, the Advanced Editing mode is off, and you see the \nsimplified opti",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": "Adobe LiveCycle Rights Management \n(ALCRM) servers \nAdobe LiveCycleRights Management (ALCRM) servers let you define centralized policies to \ncontrol access to documents. The policies are stored on the ALCRM server. You require server \naccess to use them. \nALCRM servers embed user access information ",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": " \nSet preferences for validating digital signatures \nYou can set verification preferences in advance so digital signatures are valid when you open \na PDF and verification details appear with the signature. When Digital Signatures are \nvalidated, an icon appears in the document message bar to indicat",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_2.pdf",
+      "refined_text": " \n4. In the 'Signature Verification Preferences' dialog that opens, you can control the \nfollowing settings:  \n\u2022 \nSet automatic validation of signatures: With the Verify signatures when the \ndocument is opened check box selected, Acrobat automatically validates all \nsignatures in a PDF when you open",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share \nYou can quickly share a link to a PDF document with others for viewing or commenting. The \ndocument shared as a link opens in any browser on any device. The document is stored \nsecurely in Adobe cloud storage. Recipients get an email with a link, and they can click the \nlink to view and comme",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Add name or email to invite \n\u2022 \nCreate a link and share using third-party apps. When you select any available third-\nparty app like Microsoft Outlook, Gmail, WhatsApp, Microsoft Teams, or the default \nemail client, Acrobat creates a shareable link and opens the respective application \nwith the copie",
+      "page_number": 3
+    },
+    {
+      "document": "Learn Acrobat - Share_1.pdf",
+      "refined_text": "Share a link to the file \n \nSend an anonymous or public link in an email \nAn anonymous or public link makes the files accessible to anyone who clicks the link. \nFollow the steps below to create a review link, and share it using your email client. \n1. Open the PDF in Acrobat. \n2. Select Share in the ",
+      "page_number": 4
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Add comments while viewing a PDF \ndocument \nYou can now use quick actions in a floating toolbar to add comments while viewing a PDF. \nThe following quick actions are available for commenting based on your selection in a PDF: \n\u2022 \nActions on text selection: When you select text, you can perform action",
+      "page_number": 1
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": " \nAnnotations and drawing markup tools \noverview \nNote: In Acrobat Reader, complete commenting tools are available only in PDFs \nwith commenting enabled. \nYou can use annotation and drawing markup tools to add comments. Comments are notes \nand drawings that communicate ideas or provide feedback for ",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Share_2.pdf",
+      "refined_text": "Comment pane \n2. The drawing markup tools are grouped under the Draw freehand tool in the floating \nquick tools menu on the left. \nDrawing Tools menu \nSelect an annotation or drawing markup tool \nFrom the quick tools menu on the left, select the desired annotation to add to the PDF. \n",
+      "page_number": 3
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "refined_text": "Export Expert: Test Your Acrobat Exporting Skills \n \nWelcome to the ultimate test of your Acrobat exporting skills! Think you know everything \nabout saving, converting, and exporting PDFs? It's time to put your knowledge to the test. \nDive into real-world scenarios, answer intriguing questions, and ",
+      "page_number": 1
+    },
+    {
+      "document": "Test Your Acrobat Exporting Skills.pdf",
+      "refined_text": "16. Yes or No: Can you export a PDF to XML format using Acrobat? \n17. True or False: You can use the Snapshot tool to copy selected content as an image. \n18. Scenario: You're a web developer who needs to export a PDF to HTML for your website. \nDo you use the \"Convert to HTML\" option or manually code",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "The Ultimate PDF Sharing Checklist \nSharing PDFs can be a breeze with Adobe Acrobat. Whether you're \ncollaborating on a project, seeking feedback, or simply distributing \ninformation, this checklist will ensure you cover all the bases. Let's dive \ninto the essentials of sharing PDFs effectively. \nGe",
+      "page_number": 1
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "\u2022 Have you sent the email or shared the link through your \nchosen platform? \n\u2022  Follow Up \n\u2022 Are you tracking who has accessed the document and \nfollowing up as needed? \nProfessional Tip: Clear Instructions \nEnsure your email instructions are clear and concise to avoid any \nconfusion for your recipi",
+      "page_number": 2
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "\u2022 Did you enter the email addresses of clients, agents, and other \nstakeholders? \n\u2022  Customize Your Message \n\u2022 Have you added a personal touch to the subject and message \nfields, highlighting key property details? \n\u2022  Create and Share the Link \n\u2022 Did you generate a shareable link and copy it for dis",
+      "page_number": 3
+    }
+  ]
+}
